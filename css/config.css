@@ -17,6 +17,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     width: 100%;
+    overflow-x: hidden;
 }
 
 :lang(en) [data-en] {
