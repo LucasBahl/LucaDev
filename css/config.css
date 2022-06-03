@@ -1,0 +1,101 @@
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+   * {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    /* 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:lang(en) [data-en] {
+    display: block;
+}
+
+:lang(en) [data-es] {
+    display: none;
+}
+
+:lang(es) [data-es] {
+    display: block;
+}
+
+:lang(es) [data-en] {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* ===============
+        FONTS
+   =============== */
+
+   @font-face {
+    font-family: High;
+    src: url(../fonts/High\ Spirited.ttf);
+  }
+  
+  @font-face {
+    font-family: Basic;
+    src: url(../fonts/Basic\ Light.ttf);
+  }
+  
+  @font-face {
+    font-family: Photo;
+    src: url(../fonts/Photograph\ Signature.ttf);
+  }
+  
+  @font-face {
+    font-family: Tahu;
+    src: url(../fonts/Tahu!.ttf);
+  }
+  
+  @font-face {
+    font-family: Organic;
+    src: url(../fonts/Organic\ Relief.ttf);
+  }
+  
+  @font-face {
+    font-family: Silian;
+    src: url(../fonts/SilianRail_PERSONAL_USE_ONLY.otf);
+  }
+
+h2 {
+  font-family: High;
+  font-size: 7rem;
+}
+h3 {
+  font-family: Silian;
+  font-size: 4rem;
+}
+p {
+  font-family: Basic;
+  font-size: 2rem;
+}

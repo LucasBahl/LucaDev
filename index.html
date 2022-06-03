@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designer | LucaDev</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- PRE LOADER -->
+    <div id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+
+    <!-- LANDING SECTION -->
+    <section id="landingSection">
+        <span data-en class="text-focus">Welcome to</span>
+        <span data-es class="text-focus">Bienvenido A</span>
+        <h1 class="text-focus-in">LucaDev</h1>
+
+        <div class="containerScroll">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+          </div>
+    </section>
+
+
+    </div>
+    <!-- ABOUT ME SECTION -->
+    <section id="aboutSection">
+        <h2 data-en>About Me</h2>
+        <h2 data-es>Sobre Mi</h2>
+        <div class="containerAbout">
+            <img src="./assets/img/profile.png" class="kenburns-top">
+            <h3 data-en>Im Lucas</h3>
+            <p data-en>Passionate Full-Stack Web Developer in process, living in Argentina.
+                Seeking to progress in this awesome industry and adquire new knowledge.</p>
+            <h3 data-es>Soy Lucas</h3>
+            <p data-es>Un Apasionado Desarrollador Web Full-Stack en proceso, viviendo en Argentina. Buscando progresar
+                en
+                esta increible industria
+                y adquirir nuevos conocimientos</p>
+            <h3 data-en>What Can i Do?</h3>
+            <p data-en>I will create and satisfy your requeriments for your business or personal website,
+                making an unique and intuitive site, taking care of your needs.</p>
+            <h3 data-es>Que Puedo Hacer ?</h3>
+            <p data-es>Voy a crear y satisfacer tus necesidades para tu negocio o pagina personal, realizando un sitio
+                unico e intuitivo,
+                teniendo en cuenta tus necesidades. </p>
+        </div>
+    </section>
+
+    <!-- MY PROJECTS SECTION -->
+    <section id="projectsSection">
+        <h2 data-en>My Projects</h2>
+        <h2 data-es>Mis Proyectos</h2>
+        <div class="containerProjects">
+
+            <!-- ABERTURAS RIVADAVIA -->
+            <video src="./assets/Video/aberturas-rivadavia.mov" loop autoplay></video>
+            <h3>Aberturas Rivadavia</h3>
+            <p data-en>Customer request a intuitive an easy to use website of his bussines.
+                With an ecommerce link to his products, location and contact form.</p>
+            <p data-es>Cliente solicito una pagina intuitiva y facil de usar de su negocio. Que contenga un link para la
+                compra de tus productos, ubicaciones de sucursales y formulario de contacto</p>
+            </p>
+
+
+            <!-- DON TORPOLLO -->
+            <video src="./assets/Video/don-torpollo.mov" loop autoplay></video>
+            <h3 class="dontorText">Don Torpollo</h3>
+            <p data-en>Fast food restaurant with custom logo an animation. User login and menu showroom to take orders.
+            </p>
+            <p data-es>Restaurante de comida rapida con logo animado y personalizado. Registro de usuarios y menu con
+                imagenes para tomar ordenes.</p>
+
+
+            <!-- COMPLEJO MILUNA -->
+            <video src="./assets/Video/complejo-miluna.mov" loop autoplay></video>
+            <h3>Complejo Miluna</h3>
+            <p data-en>Family rental house, requesting photos of building, with prices, contact form and a description
+                of
+                the services they offer.</p>
+            <p data-es>Complejo familiar para alquiler, solicito un muestrario de fotos del lugar, con precios,
+                formulario
+                de contacto y descripcion de los servicios ofrecidos</p>
+        </div>
+ </section>
+
+ <section id="contactSection">
+     <h2>Contact</h2>
+     <div class="form">
+         <form>
+             <input type="text" placeholder="name" id="name" required>
+             <input type="text" placeholder="surname" id="surname" required>
+             <input type="tel" placeholder="phone" id="phone">
+             <textarea id="message" rows="3" placeholder="What can i do for you?"></textarea>
+         </form>
+     </div>
+ </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/languageToggle.js"></script>
+    <script src="./js/loader.js"></script>
+    <script src="./js/mobileMenu.js"></script>
+</body>
+
+</html>
